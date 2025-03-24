@@ -46,7 +46,7 @@
 #error "未选择 OLED 屏幕类型"
 #endif
 
-#define DISPLAY_MIRROR_X true
-#define DISPLAY_MIRROR_Y true
+#define DISPLAY_MIRROR_X false
+#define DISPLAY_MIRROR_Y false
 
 #endif // _BOARD_CONFIG_H_

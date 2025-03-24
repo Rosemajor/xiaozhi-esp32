@@ -15,6 +15,24 @@
         }
     },
     {
+        "name": "lamp_green",
+        "description": "绿色的氛围灯",
+        "properties": {
+            "power": {
+                "type": "boolean",
+                "description": "绿色氛围灯的开关状态"
+            }
+        },
+        "methods": {
+            "TurnOn": {
+                "description": "打开绿灯"
+            },
+            "TurnOffs": {
+                "description": "关闭绿灯"
+            }
+        }
+    },
+    {
         "name": "speaker",
         "description": "当前 AI 机器人的扬声器",
         "properties": {
